@@ -1,0 +1,65 @@
+.content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .intro-section {
+    margin-bottom: 40px;
+  }
+  
+  .intro-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .intro-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #61dafb;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #21a1f1;
+  }
+  
+  .features-section {
+    margin-top: 40px;
+  }
+  
+  .features-section h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .feature h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1em;
+    color: #555;
+  }
