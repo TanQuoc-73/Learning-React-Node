@@ -1,17 +1,22 @@
 import React from 'react';
+import logoHAU from '../assets/images/logoHAU.png';
 import '../assets/styles/Header.css'
 
 const Header = () => {
   return (
-    <header className="header">
-      <h1>Welcome to Our Website</h1>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
+    <header className="header-container">
+      <div className="logo">
+        <div className ="logoicon">
+          <img src={logoHAU} alt="Logo HAU"/>
+        </div>
+      </div>
+      <nav className="nav">
+        <a href="#" className="nav-link">Home</a>
+        <a href="#" className="nav-link">About</a>
+        <a href="#" className="nav-link">Services</a>
+        <a href="#" className="nav-link">Contact</a>
       </nav>
+      <button className="btn-login">Login</button>
     </header>
   );
 };
